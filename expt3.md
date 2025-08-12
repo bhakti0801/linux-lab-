@@ -17,4 +17,3 @@ cd ..             # go up one level
 cd /              # go to root
 cd ~              # go to home directory 
 
-![alt text](image.png)
