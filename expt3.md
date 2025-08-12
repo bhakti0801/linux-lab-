@@ -1,6 +1,7 @@
 # Basic Commands 
 
 ```bash
-$pwd
+>> pwd
+
 
 
