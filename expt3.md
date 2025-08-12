@@ -6,8 +6,8 @@
 
 # ls- list directory content 
 ls -1 Detailed list( permissions, size, date)
-la -a Shows hidden files (those starting with. 
-la -1a combined )
+ls -a Shows hidden files (those starting with. 
+ls -1a combined )
 
 
 
