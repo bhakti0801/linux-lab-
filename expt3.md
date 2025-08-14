@@ -3,6 +3,7 @@
 ```bash
 # pwd- Print Working Directory
 >> pwd
+```
 
 # ls- list directory content 
 ls -1 Detailed list( permissions, size, date)
@@ -101,3 +102,6 @@ mkdir test && cd test && touch hello.txt
 
 * Run only if previous command succeeds: &&
 * Run regardless of success: ;
+
+// USE ./ TO UPLOAD AN IMAGE 
+![alt text](./image/image-3.png)
