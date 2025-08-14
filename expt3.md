@@ -94,6 +94,10 @@ grep "hello" file.txt
 
 Searches for the word hello inside the file.txt
 
-#Helpful Shortcuts
- 
- ![alt text](image-1.png)
+#Bonus: Chaining Command 
+
+* Run multiple commands
+mkdir test && cd test && touch hello.txt
+
+* Run only if previous command succeeds: &&
+* Run regardless of success: ;
