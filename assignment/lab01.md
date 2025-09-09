@@ -10,7 +10,7 @@
 ## 🖼️ Screenshots
 
 ### 1. Ubuntu Setup
-*(Insert screenshot of setup process here)*
+![alt text](./image.png))
 
 ### 2. Installation Progress
 *(Insert screenshot of installation step)*
