@@ -105,3 +105,13 @@ mkdir test && cd test && touch hello.txt
 
 // USE ./ TO UPLOAD AN IMAGE 
 ![alt text](./image/image-3.png)
+
+
+Q what does mkdir -p do?
+A It makes an empty parent directory. 
+
+Q why is automation useful in devops?
+A Automation is useful in devops because:
+   - consistency: tasks run in a same way, reducing errors. 
+   - speed: faster builds, tests and deployments. 
+   - Reliable: Less human errors, more stable system. 
