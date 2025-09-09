@@ -13,11 +13,10 @@
 ![alt text](./image.png))
 
 ### 2. Installation Progress
-*(Insert screenshot of installation step)*
+![alt text](./image-1.png)
 
 ### 3. First Login
-*(Insert screenshot after logging into Ubuntu)*
-
+![alt text](./image-2.png)
 ---
 
 ## 💻 Terminal Outputs
