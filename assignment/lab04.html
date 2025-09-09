@@ -369,6 +369,23 @@ code {
 <hr>
 <h2 id="%F0%9F%A7%BE-original-behavior">🧾 Original Behavior</h2>
 <p><img src="image-27.png" alt="alt text"></p>
+<h3 id="explanation">Explanation:</h3>
+<p>📥 User input collection
+These read commands take input from the user:</p>
+<p>start: the beginning of the number range</p>
+<p>end: the maximum value to count to</p>
+<p>step: how much to increase each time</p>
+<p>✅ Step validation</p>
+<p>&quot;$step&quot; =~ ^[0-9]+$ → Ensures the input contains only digits (i.e., it's a number).</p>
+<p>&quot;$step&quot; -le 0 → Checks if the number is less than or equal to zero.</p>
+<p>If either check fails, the script shows an error and exits.</p>
+<p>🔁 C-style for loop</p>
+<p>Starts from i = start</p>
+<p>Loops until i &lt;= end</p>
+<p>Increments i by step in each iteration</p>
+<p>💬 Output inside loop</p>
+<p>Prints the current number in the loop.</p>
+<p>Loop continues based on step.</p>
 <h3 id="output">OUTPUT:</h3>
 <p><img src="image-28.png" alt="alt text"></p>
 <h3 id="script-printnumberssh">Script: <code>print_numbers.sh</code></h3>
@@ -379,6 +396,17 @@ code {
 <span class="hljs-keyword">do</span>
   <span class="hljs-built_in">echo</span> <span class="hljs-string">"Number: <span class="hljs-variable">$i</span>"</span>
 <span class="hljs-keyword">done</span>
+Q 1 Difference between <span class="hljs-variable">$1</span>, <span class="hljs-variable">$@</span>, and <span class="hljs-variable">$#</span> <span class="hljs-keyword">in</span> bash?
+A1  The difference between <span class="hljs-variable">$1</span>, <span class="hljs-variable">$@</span> and <span class="hljs-variable">$#</span> is:
+•	<span class="hljs-variable">$1</span>- Takes the first argument.
+•	<span class="hljs-variable">$@</span>- Takes all the argument but separately. 
+•	<span class="hljs-variable">$#</span>- Number of arguments
+Q2 What does <span class="hljs-built_in">exit</span> 1 mean <span class="hljs-keyword">in</span> a script?
+A2
+•	To stop execution when an error is detected.
+•	To inform other programs or scripts that this script failed or encountered a problem.
+
+
 </div></code></pre>
 
 </body>
