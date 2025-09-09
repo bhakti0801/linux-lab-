@@ -5,4 +5,4 @@ Linux is an open-source operating system (OS) based on Unix. It manages a comput
 STEP1: Download VIRTUAL BOX ORACLE IN YOUR DESKTOP. 
 - GO TO CHROME AND SEARCH VIRTUALBOX WEBSITE. 
 - SELECT YOUR OPERATING SYSTEM
-![alt text](./image/load.png)
+![alt text](./screenshots/load.png)
